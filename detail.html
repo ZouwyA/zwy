@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酷我音乐详情页</title>
+</head>
+<link rel="stylesheet" href="css/detail.css">
+<link rel="stylesheet" href="css/photo.css">
+<link rel="stylesheet" href="css/register.css">
+<link rel="stylesheet" href="css/login1.css">
+<link rel="shortcut icon" href="images/kwyy.ico" type="image/x-icon">
+
+<style>
+    #gc .hid {
+        display: none;
+    }
+
+    #gc .show {
+        display: block;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="h-left">
+            <h1>
+                <li><a href="index.html">
+                        <img src="https://h5static.kuwo.cn/www/kw-www/img/logo.7bf8751.png" alt="">
+                    </a>
+                </li>
+            </h1>
+            <ul>
+                <li class="one"><a href="#">发现音乐</a></li>
+
+                <li><a href="#">下载客户端</a></li>
+                <li><a href="#">音乐现场</a></li>
+                <li><a href="#"> VIP会员</a></li>
+
+                <li><a href="#">酷我畅听</a></li>
+                <li><a href="#">酷我耳机</a></li>
+                <li id="tow">更多 v
+                    <ul id="gd">
+                        <li id="l1"><a href="#">酷我音乐人</a></li>
+                        <li><a href="#">HiFi音乐</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <div class="h-right">
+            <div class="h-one">
+                <span id="sss" class="search">
+                    <input type="text" placeholder="搜索音乐/MV/歌单/歌手" id="input">
+                    <img src="images/search.png" alt="" id="search">
+                </span>
+            </div>
+            <div class="h-tow">
+                <p> <a href="" id="login">登录 / 注册</a></p>
+            </div>
+            <div id="login1">
+                <main class="asd">
+                    <header>
+                        <ul id="ul">
+                            <li class="current">账号登录</li>
+                            <li>快捷登录</li>
+                        </ul>
+                        <span id="span">X</span>
+                    </header>
+                    <section id="section">
+                        <div id="parent">
+                            <aside class="kkk">
+                                <div class="nav111">
+                                    <div class="nav-11">
+                                        <img src="images/zhdl.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p id="p22"><img src="images/user.png" alt=""><input type="text"
+                                                placeholder="用户名/邮箱/手机号码"></p>
+                                        <p><img src="images/mm.png" alt=""><input type="password" placeholder="密码"></p>
+                                        <p><img src="images/yzm.png" alt=""><input type="text" placeholder="验证码"></p>
+                                        <img src="images/yzm.jpg" alt="" id="yzm1">
+                                        <p id="p1"><input type="checkbox">自动登录<span id="ccc">注册账号</span></p>
+                                    </div>
+                                </div>
+                            </aside>
+
+                            <aside>
+                                <div class="nav111">
+                                    <div class="nav-11">
+                                        <img src="images/kjdl.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p id="p22"><img src="images/sjh.png" alt=""><input type="text"
+                                                placeholder="请输入手机号码">
+                                        </p>
+                                        <p><img src="images/yzm.png" alt=""><input type="password" placeholder="请输入验证码">
+                                        </p>
+                                        <p id="p7"><img src="images/yzm.png" alt=""><input type="text"
+                                                placeholder="请输入验证码" id="yzm"> <a href="" id="getyzm">获取验证码</a></p>
+                                        <img src="images/yzm.jpg" alt="" id="yzm2">
+                                        <p id="p1"><span id="ccc1">注册账号</span></p>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+
+                        <nav>
+                            <button>登录</button>
+                            <p id="p2">—————————— 其他账号登录 ——————————</p>
+                            <div class="qt">
+                                <img src="images/QQ.png" alt="">
+                                <img src="images/wb.png" alt="">
+                                <img src="images/wx.png" alt="">
+                            </div>
+                        </nav>
+
+
+                    </section>
+                </main>
+            </div>
+            <div id="login111">
+                <main class="all222">
+                    <header>
+                        <span id="span1">X</span>
+                    </header>
+                    <section>
+                        <ul>
+                            <li><img src="images/QQ.png" alt=""></li>
+                            <li><img src="images/wx.png" alt=""></li>
+                            <li><img src="images/wb.png" alt=""></li>
+                            <li><img src="images/kkw.png" alt=""></li>
+                        </ul>
+                    </section>
+                    <div class="buttom">
+                        <p><a href="" id="login11">快捷登录 |</a><a href="" id="register"> 注册</a></p>
+                        <p><input type="checkbox">同意
+                            <a href="#">《酷我音乐用户服务协议》 </a>
+                            <a href="#"> 《隐私政策》</a>
+                        </p>
+                        <p><a href="#">《儿童隐私政策》</a></p>
+                    </div>
+                </main>
+            </div>
+            <div id="login222">
+                <main class="all333">
+
+                    <header>
+                        <h5>新用户注册</h5>
+                        <span id="span2">X</span>
+                    </header>
+                    <section>
+                        <div class="top">
+                            <p>手机号:</p>
+                            <p><input type="text" placeholder="请输入手机号"></p>
+
+                            <p>设置密码:</p>
+                            <p><input type="text" placeholder="6 ~ 16位，需组合字母、数字或符号"></p>
+
+                            <p>验证码:</p>
+                            <p><input type="text" placeholder="请输入右侧验证码"></p>
+                            <img src="images/yzm.jpg" alt="">
+                        </div>
+                        <div class="buttom">
+                            <button>下一步</button>
+                            <p>已有账号 <a href="" id="login333">立即登录</a></p>
+                            <p><input type="checkbox">同意
+                                <a href="#">《酷我音乐用户服务协议》 </a>
+                                <a href="#"> 《隐私政策》</a>
+                            </p>
+                            <p><a href="#">《儿童隐私政策》</a></p>
+                        </div>
+
+                    </section>
+                </main>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <div class="m-left">
+            <img src="images/详情.jpg" alt="">
+            <p id="p11">专题简介</p>
+            <p id="p22">与你擦肩而过，找不到浓烈的感情，没有断肠不忘的承诺，只淡淡相依，又一直不愿忘却。
+            </p>
+            <a href="#"><img src="images/下载.png" alt="">下载歌曲</a>
+            <div class="ma">
+                <img src="https://h5static.kuwo.cn/www/kw-www/img/qrcode.d53daff.png" alt="">
+                <p>手机扫描二维码下载客户端</p>
+            </div>
+
+        </div>
+        <div class="m-right">
+            <div class="m-r-top">
+                <p id="p5"><span> 一生与你擦肩而过</span></p>
+                <p><a href="#">阿悠悠</a></p>
+                <p id="p4">
+                    <span>专辑：</span>
+                    <span>一生与你擦肩而过</span>
+                    <span>发行时间：</span>
+                    <span>2019-11-07</span>
+                </p>
+                <div class="an">
+                    <a id="bf"><img src="images/24gl-play.png" alt=""><span> 立即播放</span> </a>
+                    <a><img src="images/tj.png" alt=""><span> 添加</span></a>
+                    <a><img src="images/jsc.png" alt=""><span> 收藏</span> </a>
+                    <a><img src="images/fx (1).png" alt=""> <span> 分享</span></a>
+                    <a><img src="images/pl.png" alt=""><span> 评论</span></a>
+                </div>
+                <div class="gc" id="gc">
+                    <p>一生与你擦肩而过 -- 阿悠悠</p>
+                    <p>词：可泽</p>
+                    <p>曲：可泽</p>
+                    <p>编曲：周琦</p>
+                    <p>录音：肖肖</p>
+                    <p>混音：刘城函</p>
+                    <p>吉他：周琦</p>
+                    <p>和声：胜屿</p>
+                    <p>制作人：胜屿</p>
+                    <p>（未经许可,不得翻唱或使用）</p>
+                    <p>情 它总是让人痛</p>
+                    <p>梦 会变得很沉重</p>
+                    <p>谁 不渴望有人懂</p>
+                    <p>能够陪我 春夏秋冬</p>
+                    <p>爱 来匆匆去匆匆</p>
+                    <p>心 变得越来越空</p>
+                    <p>谁 能够一生相拥</p>
+                    <p>却又害怕 自我嘲讽</p>
+                    <p>站在海之涯 望着天</p>
+                    <p>一幕幕的再回首</p>
+                    <p>心中缠绵的心痛 对谁说</p>
+                    <p>眼看着 期盼片片的坠落</p>
+                    <p>就这样 一生与你擦肩过</p>
+                    <p>眼前苍茫茫 一片片</p>
+                    <p>四海无缘再相见</p>
+                    <p>起伏延绵的哀愁 在胸口</p>
+                    <p>眼看着 滚烫的眼泪滑落</p>
+                    <p>这记忆 太重如何去承受</p>
+                    <p>爱 来匆匆去匆匆</p>
+                    <p>心 变得越来越空</p>
+                    <p>谁 能够一生相拥</p>
+                    <p>却又害怕 自我嘲讽</p>
+                    <p>站在海之涯 望着天</p>
+                    <p>一幕幕的再回首</p>
+                    <p>心中缠绵的心痛 对谁说</p>
+                    <p>眼看着 期盼片片的坠落</p>
+                    <p>就这样 一生与你擦肩过</p>
+                    <p>眼前苍茫茫 一片片</p>
+                    <p>四海无缘再相见</p>
+                    <p>起伏延绵的哀愁 在胸口</p>
+                    <p>眼看着 滚烫的眼泪滑落</p>
+                    <p>这记忆 太重如何去承受</p>
+
+                    <p>站在海之涯 望着天</p>
+                    <p>一幕幕的再回首</p>
+                    <p>心中缠绵的心痛 对谁说</p>
+                    <p>眼看着 期盼片片的坠落</p>
+                    <p>就这样 一生与你擦肩过</p>
+
+                    <p>眼前苍茫茫 一片片</p>
+                    <p>四海无缘再相见</p>
+                    <p>起伏延绵的哀愁 在胸口</p>
+                    <p>眼看着 滚烫的眼泪滑落</p>
+                    <p>这记忆 太重如何去承受</p>
+                    <p>暂无歌词</p>
+
+                    <div class="zk">
+                        <span id="zk">展开 v</span>
+                    </div>
+                </div>
+
+                <div class="pl">
+                    <p>
+                    <h4>热门评论</h4><span>78条</span></p>
+                </div>
+                <div class="pl-1">
+                    <ul>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user3.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>╰把曾经 谱写成童話╮</h5>
+                                    </p>
+                                    <p>许嵩有十多首歌曲都在飙升榜前列</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>qq1527923036</h5>
+                                    </p>
+                                    <p>希望魔卡少女樱透明牌的歌的再一次登上去的点赞</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user2.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>lonely＆燕</h5>
+                                    </p>
+                                    <p>脚踏实地谋发展 努力努力再努力x</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user3.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>╰把曾经 谱写成童話╮</h5>
+                                    </p>
+                                    <p>许嵩有十多首歌曲都在飙升榜前列</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>qq1527923036</h5>
+                                    </p>
+                                    <p>希望魔卡少女樱透明牌的歌的再一次登上去的点赞</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user2.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>lonely＆燕</h5>
+                                    </p>
+                                    <p>脚踏实地谋发展 努力努力再努力x</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user3.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>╰把曾经 谱写成童話╮</h5>
+                                    </p>
+                                    <p>许嵩有十多首歌曲都在飙升榜前列</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>qq1527923036</h5>
+                                    </p>
+                                    <p>希望魔卡少女樱透明牌的歌的再一次登上去的点赞</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="to-top">
+        <ul>
+            <li>反馈</li>
+            <li><img src="images/wr.png" alt=""><img src="images/wr(1).png" alt=""></li>
+            <li><img src="images/anz.png" alt=""><img src="images/anz(2).png" alt=""></li>
+            <li><img src="images/iphone.png" alt=""><img src="images/iphone(1).png" alt=""></li>
+            <li id="ttt">^</li>
+        </ul>
+    </div>
+    <footer>
+        <div class="f-1">
+            <div class="f1-center">
+                <div class="f-top">
+                    <p>下载酷我音乐客户端</p>
+                    <p>协议与声明</p>
+                    <p>其他</p>
+                    <p>合作链接</p>
+                </div>
+                <div class="f-bottom">
+                    <ul>
+                        <li><a href="#"><img src="images/wr.png" alt="" id="pc"><img src="images/wr(2).png" alt=""
+                                    id="pc1"><br>PC版</a></li>
+                        <li><a href="#"><img src="images/anz.png" alt=""><img src="images/anz(1).png"
+                                    alt=""><br>Android</a></li>
+                        <li><a href="#"><img src="images/iphone.png" alt=""><img src="images/ipnone(2).png"
+                                    alt=""><br>iPhone版</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="#">用户服务协议</a>
+                            <a href="#">免责声明</a>
+                            <a href="#">用户权限</a>
+                        </li>
+                        <li><a href="#">儿童隐私政策</a>
+                            <a href="#">隐私政策</a>
+                            <a href="#">权利声明</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="#">联系我们</a>
+                            <a href="#">腾讯音乐</a>
+                            <a href="#">诚聘英才</a>
+                        </li>
+                        <li>
+                            <a href="#">广告服务</a>
+                            <a href="#">网上有害信息举报专区</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a href="#">QQ音乐</a>
+                        </li>
+                        <li>
+                            <a href="#">酷狗听书</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="f-2">
+            <p>北京酷我科技有限公司版权所有 丨 网络文化经营许可证：<a href="#">京网文[2021]2071-554号</a> | <a href="#"> 信息网络传播视听节目许可证0109362号</a>丨
+                增值电信业务经营许可证B2-20090418 丨<a href="#">京ICP证060261号</a>
+            </p>
+            <p><a href="#">广播电视节目制作经营许可证京字第02037号</a> 丨 <a href="#">营业性演出许可证京市演1574</a> 丨 <a
+                    href="">京公网安备11010502030216号</a> 丨 <a href="#">京ICP备09014827号</a></p>
+            <p>应用版本：10.1.0.0 丨 开发者：北京酷我科技有限公司 丨 举报电话：010-87939949丨 举报邮箱：support@kuwo.cn 丨<a href="#">未成年人监督举报入口</a> </p>
+        </div>
+    </footer>
+
+    <div class="fff" id="fff">
+        <div class="fff-1"></div>
+        <div class="fff-2">
+            <div class="ff-l">
+                <img src="images/详情.jpg" alt="">
+                <div class="ff-l-1">
+                    <span>后来没有你</span>
+                    <span> - 周深</span>
+                    <span id="start1"></span>
+                </span><input type="range" class="musicrange" value="0" id="musicrange"><span id="all"></span>
+                <audio src="music/jn.mp3" id="music"></audio>
+
+                </div>
+            </div>
+            <div class="ff-cen">
+                <span><img src="images/top.png" alt="" id="before"></span>
+                <span><img src="images/bf.png" alt="" id="bbb">
+                      <img src="images/zt.png" alt="" id="zt">
+                </span>
+                <span><img src="images/back.png" alt="" id="next"></span>
+            </div>
+            <div class="ff-r">
+                <img src="images/jsc.png" alt="">
+                <img src="images/xz.png" alt="">
+                <img src="images/pl.png" alt="">
+                <img src="images/24gl-repeat2.png" alt="">
+                <img src="images/24gl-playlistMusic2.png" alt="">
+                <span>高品 v</span>
+                <img src="images/24gl-volumeMiddle.png" alt="">
+                <input type="range" class="volume" value="0">
+            </div>
+            <div class="sd">
+                <img src="images/sd.png" alt="" id="sd">
+                <img src="images/js.png" alt="" id="js">
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-2.1.4/jquery.min.js"></script>
+    <script src="js/detail.js"></script>
+    <script src="js/bf.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>

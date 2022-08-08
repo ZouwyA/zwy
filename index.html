@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酷我音乐首页</title>
+</head>
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/login1.css">
+<link rel="stylesheet" href="css/photo.css">
+<link rel="stylesheet" href="css/register.css">
+<link rel="shortcut icon" href="images/kwyy.ico" type="image/x-icon">
+
+<body>
+    <header>
+        <div class="h-left">
+            <h1>
+                <li><img src="https://h5static.kuwo.cn/www/kw-www/img/logo.7bf8751.png" alt=""></li>
+            </h1>
+            <ul id="boxs">
+                <li class="one"><a href="#">发现音乐</a></li>
+
+                <li><a href="#">下载客户端</a></li>
+                <li><a href="#">音乐现场</a></li>
+                <li><a href="#"> VIP会员</a></li>
+
+                <li><a href="#">酷我畅听</a></li>
+                <li><a href="#">酷我耳机</a></li>
+                <li id="tow">更多 v
+                    <ul id="gd">
+                        <li id="l1"><a href="#">酷我音乐人</a></li>
+                        <li><a href="#">HiFi音乐</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <div class="h-right">
+            <div class="h-one">
+                <span id="sss" class="search">
+                    <input type="text" placeholder="搜索音乐/MV/歌单/歌手" id="input">
+                    <img src="images/search.png" alt="" id="search">
+                </span>
+            </div>
+            <div class="h-tow">
+                <p> <a href="" id="login">登录 / 注册</a></p>
+            </div>
+            <div id="login1">
+                <main class="asd">
+                    <header>
+                        <ul id="ul">
+                            <li class="current">账号登录</li>
+                            <li>快捷登录</li>
+                        </ul>
+                        <span id="span">X</span>
+                    </header>
+                    <section id="section">
+                        <div id="parent">
+                            <aside class="kkk">
+                                <div class="nav111">
+                                    <div class="nav-11">
+                                        <img src="images/zhdl.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p id="p22"><img src="images/user.png" alt=""><input type="text"
+                                                placeholder="用户名/邮箱/手机号码"></p>
+                                        <p><img src="images/mm.png" alt=""><input type="password" placeholder="密码"></p>
+                                        <p><img src="images/yzm.png" alt=""><input type="text" placeholder="验证码"></p>
+                                        <img src="images/yzm.jpg" alt="" id="yzm1">
+                                        <p id="p1"><input type="checkbox">自动登录<span id="ccc">注册账号</span></p>
+                                    </div>
+                                </div>
+                            </aside>
+
+                            <aside>
+                                <div class="nav111">
+                                    <div class="nav-11">
+                                        <img src="images/kjdl.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p id="p22"><img src="images/sjh.png" alt=""><input type="text"
+                                                placeholder="请输入手机号码">
+                                        </p>
+                                        <p><img src="images/yzm.png" alt=""><input type="password" placeholder="请输入验证码">
+                                        </p>
+                                        <p id="p7"><img src="images/yzm.png" alt=""><input type="text"
+                                                placeholder="请输入验证码" id="yzm"> <a href="" id="getyzm">获取验证码</a></p>
+                                        <img src="images/yzm.jpg" alt="" id="yzm2">
+                                        <p id="p1"><span id="ccc1">注册账号</span></p>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+
+                        <nav>
+                            <button>登录</button>
+                            <p id="p2">—————————— 其他账号登录 ——————————</p>
+                            <div class="qt">
+                                <img src="images/QQ.png" alt="">
+                                <img src="images/wb.png" alt="">
+                                <img src="images/wx.png" alt="">
+                            </div>
+                        </nav>
+
+
+                    </section>
+                </main>
+            </div>
+            <div id="login111">
+                <main class="all222">
+                    <header>
+                        <span id="span1">X</span>
+                    </header>
+                    <section>
+                        <ul>
+                            <li><img src="images/QQ.png" alt=""></li>
+                            <li><img src="images/wx.png" alt=""></li>
+                            <li><img src="images/wb.png" alt=""></li>
+                            <li><img src="images/kkw.png" alt=""></li>
+                        </ul>
+                    </section>
+                    <div class="buttom">
+                        <p><a href="" id="login11">快捷登录 |</a><a href="" id="register"> 注册</a></p>
+                        <p><input type="checkbox">同意
+                            <a href="#">《酷我音乐用户服务协议》 </a>
+                            <a href="#"> 《隐私政策》</a>
+                        </p>
+                        <p><a href="#">《儿童隐私政策》</a></p>
+                    </div>
+                </main>
+            </div>
+            <div id="login222">
+                <main class="all333">
+
+                    <header>
+                        <h5>新用户注册</h5>
+                        <span id="span2">X</span>
+                    </header>
+                    <section>
+                        <div class="top">
+                            <p>手机号:</p>
+                            <p><input type="text" placeholder="请输入手机号"></p>
+
+                            <p>设置密码:</p>
+                            <p><input type="text" placeholder="6 ~ 16位，需组合字母、数字或符号"></p>
+
+                            <p>验证码:</p>
+                            <p><input type="text" placeholder="请输入右侧验证码"></p>
+                            <img src="images/yzm.jpg" alt="">
+                        </div>
+                        <div class="buttom">
+                            <button>下一步</button>
+                            <p>已有账号 <a href="" id="login333">立即登录</a></p>
+                            <p><input type="checkbox">同意
+                                <a href="#">《酷我音乐用户服务协议》 </a>
+                                <a href="#"> 《隐私政策》</a>
+                            </p>
+                            <p><a href="#">《儿童隐私政策》</a></p>
+                        </div>
+
+                    </section>
+                </main>
+            </div>
+        </div>
+    </header>
+
+    <div class="all">
+        <div class="nav">
+            <div class="nav-1">
+                <a href="#" class="n-1">推荐</a>
+                <a href="list.html">排行榜</a>
+                <a href="#">歌手</a>
+                <a href="#">歌单</a>
+                <a href="#">MV</a>
+            </div>
+            <div class="nav-2" id="warp">
+                <ul id="u">
+                    <li><img src="images/lb1.png" alt="">
+                    </li>
+                    <li><img src="images/lb2.jpg" alt="">
+                    </li>
+                    <li><img src="images/lb3.jpg" alt="">
+                    </li>
+                    <li><img src="images/nav-2.jpg" alt="">
+                    </li>
+                </ul>
+                <ol id="o">
+                    <li class="o-l"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+                <span id="left"><img src="images/left.png" alt=""></span>
+                <span id="right"><img src="images/right.png" alt=""></span>
+
+            </div>
+            <div class="nav-3" id="nav3">
+                <ul>
+                    <li><img src="images/wr.png" alt=""><a href="#">下载PC版</a></li>
+                    <li><img src="images/anz.png" alt=""><a href="#">下载Android版</a></li>
+                    <li><img src="images/iphone.png" alt=""><a href="#">下载iPhone版</a></li>
+                    <li><img src="images/mac.png" alt=""><a href="#">其他版本下载</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <main>
+            <div class="main-1">
+                <h3>推荐gd</h3>
+                <ul class="hhh" id="hhh">
+                    <li class="m-11" id="tj">每日推荐</li>
+                    <li id="fc">翻唱</li>
+                    <li id="wl">网络</li>
+                    <li id="sg">伤感</li>
+                    <li id="um">欧美</li>
+                    <li>更多 ></li>
+                </ul>
+
+            </div>
+            <div class="main-2" id="main-2">
+                <div class="nn2">
+                    <ul id="gd111">
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img
+                                        src="https://img1.kuwo.cn/star/userpl2015/10/13/1649904612537_132026710_500.jpg"
+                                        alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+
+                            <a href="#">每日最新单曲推荐</a><span>▶20343.7万</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/gd2.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+                            <a href="#">
+                                【致生活•女声】这个世界还值得去期待
+                            </a><span>▶25.2万</span>
+                        </li>
+
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/gd3.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+                            <a href="#">
+                                你想听的杰伦200首都在酷我音乐~
+                            </a><span>▶336.7万</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/gd4.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+
+                                </a>
+
+                            </div>
+                            <a href="#">青春丨感谢青葱岁月里的你们
+
+                            </a><span>▶165.6万</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/gd5.jpg" alt="">
+
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+
+                            </div>
+                            <a href="#">【欧美经典】直击灵魂的天籁女声
+
+                            </a><span>▶122.1万</span>
+                        </li>
+                    </ul>
+                    <ul id="gd222">
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/fc1.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+
+                            <a href="#">任舒瞳丨温柔治愈的嗓音，像吃了草莓一样甜</a><span>▶110万</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/fc2.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+                            <a href="#">
+                                柯柯柯啊丨温柔伤感嗓音，心动夺取你的心灵
+                            </a><span>▶76</span>
+                        </li>
+
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/fc3.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+                            <a href="#">
+                                经典老歌翻唱 | 深情演绎，重温往日情怀 </a><span>▶151</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/fc4.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+
+                                </a>
+
+                            </div>
+                            <a href="#">鱼闪闪丨嘹亮的嗓音唱出你所般的温柔
+
+                            </a><span>▶79</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/fc5.jpg" alt="">
+
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+
+                            </div>
+                            <a href="#">悲痛片段：思千句，想万语，还是早点睡好
+
+                            </a><span>▶1440</span>
+                        </li>
+                    </ul>
+                    <ul id="gd333">
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/wl1.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+
+                            <a href="#">【鬼畜神曲】听到你鬼畜和洗脑为止</a><span>▶13.3万</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/wl2.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+                            <a href="#">
+                                欢快古风丨梨涡浅笑，小曲意悠扬
+                            </a><span>▶4.4万</span>
+                        </li>
+
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/wl3.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+                            <a href="#">
+                                超嗨DJ舞曲，甩掉你的不开心
+                            </a><span>▶86.7万</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/wl4.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+
+                                </a>
+
+                            </div>
+                            <a href="#">『抖音』小仙女必备，心动率爆表！
+
+                            </a><span>▶173</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/wl5.jpg" alt="">
+
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+
+                            </div>
+                            <a href="#">【季节专属】品尝一杯18°的清凉神曲
+
+                            </a><span>▶33</span>
+                        </li>
+                    </ul>
+                    <ul id="gd444">
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/sg.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+
+                            <a href="#">夜店伤感DJ｜慢歌不适合伤心的人听</a><span>▶8.4万</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/sg2.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+                            <a href="#">
+                                「抖音伤感」早点说再见该多好
+                            </a><span>▶55.2万</span>
+                        </li>
+
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/sg3.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+                            <a href="#">
+                                伤感烟嗓：爱情落单，拥抱凄凉
+                            </a><span>▶1077</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/sg4.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+
+                                </a>
+
+                            </div>
+                            <a href="#">经典伤感丨人的情殇无人能懂
+
+                            </a><span>▶1352</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/sg5.jpg" alt="">
+
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+
+                            </div>
+                            <a href="#">【伤感】孤独夜里，放飞心情
+
+                            </a><span>▶258</span>
+                        </li>
+                    </ul>
+                    <ul id="gd555">
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/um1.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+
+                            <a href="#">欧式清新小调｜在杂货铺售卖夏日的晚风</a><span>▶4.4万</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/um2.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+                            <a href="#">
+                                欧美补给站｜进入浪漫时空系的氛围中
+                            </a><span>▶3.5万</span>
+                        </li>
+
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/um3.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+                            </div>
+                            <a href="#">
+                                欧美浪漫轻小调｜共度沉溺温柔海
+                            </a><span>▶109</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/um4.jpg" alt="">
+                                    <img src="images/bf.png" alt="" class="start">
+
+                                </a>
+
+                            </div>
+                            <a href="#">【厂牌控】R厂旗下的Gemstone Records
+
+                            </a><span>▶36</span>
+                        </li>
+                        <li>
+                            <div class="m-1">
+                                <a href="detail.html"><img src="images/um5.jpg" alt="">
+
+                                    <img src="images/bf.png" alt="" class="start">
+                                </a>
+
+                            </div>
+                            <a href="#">欧美向：沉迷于激情澎湃的海洋
+
+                            </a><span>▶112</span>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <div>
+
+                </div>
+
+            </div>
+        </main>
+        <section>
+            <div class="s-1">
+                <h3><a href="#">排行榜</a></h3>
+                <a href="#">更多 ></a>
+
+            </div>
+            <div class="s-2">
+                <div class="s-2-top">
+
+                    <ul>
+                        <li>
+                            <div class="ss1" id="aaa">
+                            </div>
+                            <a href="#"><img src="http://img2.kuwo.cn/star/albumcover/300/92/93/306713154.jpg"
+                                    alt=""></a>
+                            <span>
+                                <img src="images/rgb.png" alt="" class="img11">
+                            </span>
+
+                            <img src="images/bf.png" alt="" id="img22">
+                        </li>
+
+
+                        <li>
+                            <div class="ss1" id="aaa">
+                            </div>
+                            <a href="#"><img src="https://img3.kuwo.cn/star/albumcover/500/49/31/3109672655.jpg"
+                                    alt=""></a>
+                            <span>
+                                <img src="images/rgb.png" alt="" class="img11">
+                            </span>
+                            <img src="images/bf.png" alt="" id="img22">
+
+                        </li>
+
+                        <li>
+                            <div class="ss1" id="aaa">
+                            </div>
+                            <a href="#"><img src="https://img3.kuwo.cn/star/albumcover/500/49/31/3109672655.jpg"
+                                    alt=""></a>
+                            <span>
+                                <img src="images/rgb.png" alt="" class="img11">
+                            </span>
+                            <img src="images/bf.png" alt="" id="img22">
+
+                        </li>
+
+                        <li>
+                            <div class="ss1" id="aaa">
+                            </div>
+                            <a href="#"><img src="https://img4.kuwo.cn/star/albumcover/500/91/45/2069902575.jpg"
+                                    alt=""></a>
+
+                            <span>
+                                <img src="images/rgb.png" alt="" class="img11">
+                            </span>
+                            <img src="images/bf.png" alt="" id="img22">
+
+                        </li>
+
+                        <li>
+                            <div class="ss1" id="aaa">
+                            </div>
+                            <a href="#"><img src="https://img4.kuwo.cn/star/albumcover/500/42/81/546622733.jpg"
+                                    alt=""></a>
+
+                            <span>
+                                <img src="images/rgb.png" alt="" class="img11">
+                            </span>
+                            <img src="images/bf.png" alt="" id="img22">
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="s-2-bottom">
+                    <ul>
+                        <li>
+                            <div class="b-one">
+                                <img src="images/l1.png" alt=""><a href="#">孤勇者<br><a href="#">陈奕迅</a> </a>
+
+                            </div>
+                            <div class="b-one">
+                                <img src="images/l2.png" alt=""><a href="#">晴天<br><a href="#">周杰伦</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <img src="images/l3.png" alt=""><a href="#">青花瓷<br><a href="#">周杰伦</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <span> 4 </span><a href="#">爱你<br><a href="#">王心凌</a> </a>
+                            </div>
+                            <div class="b-one" id="bf">
+                                <span> 5 </span><a href="#">小城夏天<br><a href="#">LBI利比</a> </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="b-one">
+                                <img src="images/l1.png" alt=""><a href="#">心安的屋檐<br><a href="#">杨宗纬</a> </a>
+
+                            </div>
+                            <div class="b-one">
+                                <img src="images/l2.png" alt=""><a href="#">抱着流云来<br><a href="#">花僮</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <img src="images/l3.png" alt=""><a href="#">错过<br><a href="#">陈楚生</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <span> 4 </span><a href="#">守月<br><a href="#">张碧晨</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <span> 5 </span><a href="#">错过的烟火<br><a href="#">周杰伦</a> </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="b-one">
+                                <img src="images/l1.png" alt=""><a href="#">Bones<br><a href="#">Imagine Dragons</a> </a>
+
+                            </div>
+                            <div class="b-one">
+                                <img src="images/l2.png" alt=""><a href="#">眼泪落下之前<br><a href="#">汪苏泷</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <img src="images/l3.png" alt=""><a href="#">夜曲<br><a href="#">周杰伦</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <span> 4 </span><a href="#">So Far Away<br><a href="#">Martin Garrix&David Guetta&Jamie
+                                        Scott&Romy Dya</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <span> 5 </span><a href="#">枫<br><a href="#">周杰伦</a> </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="b-one">
+                                <img src="images/l1.png" alt=""><a href="#">Bet On Me<br><a href="#">Walk Off the
+                                        Earth</a> </a>
+
+                            </div>
+                            <div class="b-one">
+                                <img src="images/l2.png" alt=""><a href="#">Big Daddy Wiz (feat. Girl Talk)<br><a
+                                        href="">Wiz Khalifa&Girl Talk</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <img src="images/l3.png" alt=""><a href="#">ENEMY (宿敌)<br><a href="#">Imagine
+                                        Dragons&J.I.D&英雄联盟</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <span> 4 </span><a href="#">Wake<br><a href="#">梁剩镐</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <span> 5 </span><a href="#">Bones<br><a href="#">Imagine Dragons</a> </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="b-one">
+                                <img src="images/l1.png" alt=""><a href="#">如果你也想起我 (When The Wind Blows) <br><a
+                                        href="">允儿</a> </a>
+
+                            </div>
+                            <div class="b-one">
+                                <img src="images/l2.png" alt=""><a href="#">NO ONE (Feat. B.I of iKON)<br><a
+                                        href="">李夏怡&B.I</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <img src="images/l3.png" alt=""><a href="#">Feedback<br><a href="#">BoA&Nucksal (넉살)</a>
+                                </a>
+                            </div>
+                            <div class="b-one">
+                                <span> 4 </span><a href="#">너에게 못했던 내 마지막 말은<br><a href="#">DAVICHI (다비치)</a> </a>
+                            </div>
+                            <div class="b-one">
+                                <span> 5 </span><a href="#">고고베베<br><a href="#">MAMAMOO</a> </a>
+                            </div>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+        <div class="gs">
+            <div class="gs-1">
+                <h3><a href="#">歌手推荐</a></h3>
+                <a href="" class="m-2">华语</a>
+                <a href="" id="oum">欧美</a>
+                <a href="" id="rh">日韩</a>
+                <a href="" id="zh">组合</a>
+                <a href="#">更多 ></a>
+            </div>
+            <div class="gs-2">
+                <ul id="gs11">
+                    <li>
+                        <a href="#"><img src="images/wxl.jpg" alt="">王心凌</a>
+                        <span>748首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/zjl.jpg" alt="">周杰伦</a><span>1729首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/xzq.jpg" alt="">薛之谦</a><span>479首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/cyx.jpg" alt="">陈奕迅</a><span>2925首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/zss.jpg" alt="">周深</a><span>1058首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/cxk.jpg" alt="">蔡徐坤</a><span>118首歌曲</span>
+                    </li>
+                </ul>
+
+                <ul id="gs22">
+                    <li>
+                        <a href="#"><img src="images/gs221.jpg" alt="">Alan Walker</a>
+                        <span>748首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs222.jpg" alt="">Martin Garrix</a><span>1729首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs223.jpg" alt="">Vicetone</a><span>479首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs224.jpg" alt="">Sia</a><span>2925首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs225.jpg" alt="">Richard Clayderman</a><span>1058首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs226.jpg" alt="">Taylor Swift</a><span>118首歌曲</span>
+                    </li>
+                </ul>
+
+                <ul id="gs33">
+                    <li>
+                        <a href="#"><img src="images/gs331.jpg" alt="">米津玄师</a>
+                        <span>748首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs332.jpg" alt="">BLACKPINK</a><span>1729首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs333.jpg" alt="">EXO</a><span>479首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs334.jpg" alt="">BIGBANG</a><span>2925首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs335.jpg" alt="">张镐哲</a><span>1058首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs336.jpg" alt="">T-ara</a><span>118首歌曲</span>
+                    </li>
+                </ul>
+                <ul id="gs44">
+                    <li>
+                        <a href="#"><img src="images/gs441.jpg" alt="">Beyond</a>
+                        <span>748首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs442.jpg" alt="">时代少年团</a><span>1729首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs443.jpg" alt="">凤凰传奇</a><span>479首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs444.jpg" alt="">IN-K</a><span>2925首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs445.jpg" alt="">Vicetone</a><span>1058首歌曲</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/gs446.jpg" alt="">S.H.E</a><span>118首歌曲</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="to-top">
+        <ul>
+            <li>反馈</li>
+            <li><img src="images/wr.png" alt=""><img src="images/wr(1).png" alt=""></li>
+            <li><img src="images/anz.png" alt=""><img src="images/anz(2).png" alt=""></li>
+            <li><img src="images/iphone.png" alt=""><img src="images/iphone(1).png" alt=""></li>
+            <li id="ttt">^</li>
+        </ul>
+    </div>
+    <footer>
+        <div class="f-1">
+            <div class="f1-center">
+                <div class="f-top">
+                    <p>下载酷我音乐客户端</p>
+                    <p>协议与声明</p>
+                    <p>其他</p>
+                    <p>合作链接</p>
+                </div>
+                <div class="f-bottom">
+                    <ul>
+                        <li><a href="#"><img src="images/wr.png" alt="" id="pc"><img src="images/wr(2).png" alt=""
+                                    id="pc1"><br>PC版</a></li>
+                        <li><a href="#"><img src="images/anz.png" alt=""><img src="images/anz(1).png"
+                                    alt=""><br>Android</a></li>
+                        <li><a href="#"><img src="images/iphone.png" alt=""><img src="images/ipnone(2).png"
+                                    alt=""><br>iPhone版</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="#">用户服务协议</a>
+                            <a href="#">免责声明</a>
+                            <a href="#">用户权限</a>
+                        </li>
+                        <li><a href="#">儿童隐私政策</a>
+                            <a href="#">隐私政策</a>
+                            <a href="#">权利声明</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="#">联系我们</a>
+                            <a href="#">腾讯音乐</a>
+                            <a href="#">诚聘英才</a>
+                        </li>
+                        <li>
+                            <a href="#">广告服务</a>
+                            <a href="#">网上有害信息举报专区</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a href="#">QQ音乐</a>
+                        </li>
+                        <li>
+                            <a href="#">酷狗听书</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="f-2">
+            <p>北京酷我科技有限公司版权所有 丨 网络文化经营许可证：<a href="#">京网文[2021]2071-554号</a> | <a href="#"> 信息网络传播视听节目许可证0109362号</a>丨
+                增值电信业务经营许可证B2-20090418 丨<a href="#">京ICP证060261号</a>
+            </p>
+            <p><a href="#">广播电视节目制作经营许可证京字第02037号</a> 丨 <a href="#">营业性演出许可证京市演1574</a> 丨 <a
+                    href="">京公网安备11010502030216号</a> 丨 <a href="#">京ICP备09014827号</a></p>
+            <p>应用版本：10.1.0.0 丨 开发者：北京酷我科技有限公司 丨 举报电话：010-87939949丨 举报邮箱：support@kuwo.cn 丨<a href="#">未成年人监督举报入口</a> </p>
+        </div>
+    </footer>
+    <div class="fff" id="fff">
+        <div class="fff-1"></div>
+        <div class="fff-2">
+            <div class="ff-l">
+                <img src="images/详情.jpg" alt="">
+                <div class="ff-l-1">
+                    <span>后来没有你</span>
+                    <span> - 周深</span>
+                    <span id="start1"></span>
+                </span><input type="range" class="musicrange" value="0" id="musicrange"><span id="all"></span>
+                <audio src="music/jn.mp3" id="music" autoplay=""></audio>
+
+                </div>
+            </div>
+            <div class="ff-cen">
+                <span><img src="images/top.png" alt="" id="before"></span>
+                <span><img src="images/bf.png" alt="" id="bbb">
+                      <img src="images/zt.png" alt="" id="zt">
+                </span>
+                <span><img src="images/back.png" alt="" id="next"></span>
+            </div>
+            <div class="ff-r">
+                <img src="images/jsc.png" alt="">
+                <img src="images/xz.png" alt="">
+                <img src="images/pl.png" alt="">
+                <img src="images/24gl-repeat2.png" alt="">
+                <img src="images/24gl-playlistMusic2.png" alt="">
+                <span>高品 v</span>
+                <img src="images/24gl-volumeMiddle.png" alt="">
+                <input type="range" class="volume" value="0">
+            </div>
+            <div class="sd">
+                <img src="images/sd.png" alt="" id="sd">
+                <img src="images/js.png" alt="" id="js">
+            </div>
+        </div>
+        </div>
+
+        <script src="js/jquery-2.1.4/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/xxk.js"></script>
+        <script src="js/bf.js"></script>
+    </body>
+
+</html>

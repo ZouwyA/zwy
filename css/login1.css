@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/* .asd{
+    height: 540px;
+    width: 360px;
+    border: 1px solid bisque;
+    margin: 50px auto;
+} */
+#section{
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.asd header {
+    height: 50px;
+    width: 360px;
+    border-bottom: 1px solid #666;
+
+}
+
+.asd header ul {
+    overflow: hidden;
+    float: left;
+    margin-left: 10px;
+
+}
+#span{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.asd header li {
+    float: left;
+    margin: 10px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+.asd header span{
+    float: right;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+li.current {
+    background: rgb(124, 129, 124);
+    color: #fff;
+}
+
+.kkk{
+    display: block;
+    height: 325px;
+}
+
+aside{
+    display: none;
+}
+
+.nav111 {
+    height: 368px;
+    width: 278px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-11 img {
+    width: 278px;
+    height: 115px;
+    margin: 1px 0px;
+}
+
+.nav111 input {
+    width: 256px;
+    height: 38px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding-left: 32px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#parent p {
+    position: relative;
+}
+
+.kkk p img {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -5px;
+    left: 12px;
+}
+#p22 img{
+    top: 112px;
+}
+#yzm1{
+    position: absolute;
+    right: -3px;
+    top: 257px;
+    width: 75px;
+    height: 30px;
+}
+
+#yzm2{
+    position: absolute;
+    right: -8px;
+    top: 207px;
+    width: 75px;
+    height: 30px;
+}
+#p1 input {
+    height: 15px;
+    width: 15px;
+}
+#yzm{
+    width: 143px;
+}
+#getyzm{
+    width: 100px;
+    height: 38px;
+    text-align: center;
+    line-height: 40px;
+    background: #ffe200;
+    border-radius: 2px;
+    color: #333;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    float: right;
+}
+#p7{
+    width: 288px;
+}
+#p1 span {
+    float: right;
+    cursor: pointer;
+}
+
+#p1 {
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.asd button {
+    width: 278px;
+    height: 40px;
+    background: #ffe200;
+    border: none;
+    margin: 4px auto;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+#p2 {
+    text-align: center;
+    line-height: 30px;
+    font-weight: 300;
+    width: 360px;
+    font-size: 12px;
+}
+.qt{
+    width: 230px;
+    margin: 0 auto;
+}
+.qt img {
+    width: 20px;
+    height: 20px;
+    margin-right: 56px;
+    border-radius: 50%;
+    padding: 7px 7px;
+    border: 1px solid rgb(183, 180, 180);
+    margin-top: 10px;
+}
+
+.qt img:last-of-type {
+    margin-right: 0px;
+}
+
+nav {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .buttom{
+    margin-top: 60px;
+} */

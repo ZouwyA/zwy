@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酷我音乐列表页</title>
+</head>
+<link rel="stylesheet" href="css/list.css">
+<link rel="stylesheet" href="css/photo.css">
+<link rel="stylesheet" href="css/register.css">
+<link rel="stylesheet" href="css/login1.css">
+<link rel="shortcut icon" href="images/kwyy.ico" type="image/x-icon">
+
+<body>
+    <header>
+        <div class="h-left">
+            <h1>
+                <li><a href="index.html">
+                        <img src="https://h5static.kuwo.cn/www/kw-www/img/logo.7bf8751.png" alt="">
+                    </a>
+                </li>
+            </h1>
+            <ul>
+                <li class="one"><a href="#">发现音乐</a></li>
+
+                <li><a href="#">下载客户端</a></li>
+                <li><a href="#">音乐现场</a></li>
+                <li><a href="#"> VIP会员</a></li>
+
+                <li><a href="#">酷我畅听</a></li>
+                <li><a href="#">酷我耳机</a></li>
+                <li id="tow">更多 v
+                    <ul id="gd">
+                        <li id="l1"><a href="#">酷我音乐人</a></li>
+                        <li><a href="#">HiFi音乐</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <div class="h-right">
+            <div class="h-one">
+                <span id="sss" class="search">
+                    <input type="text" placeholder="搜索音乐/MV/歌单/歌手" id="input">
+                    <img src="images/search.png" alt="" id="search">
+                </span>
+            </div>
+            <div class="h-tow">
+                <p> <a href="" id="login">登录 / 注册</a></p>
+            </div>
+            <div id="login1">
+                <main class="asd">
+                    <header>
+                        <ul id="ul">
+                            <li class="current">账号登录</li>
+                            <li>快捷登录</li>
+                        </ul>
+                        <span id="span">X</span>
+                    </header>
+                    <section id="section">
+                        <div id="parent">
+                            <aside class="kkk">
+                                <div class="nav111">
+                                    <div class="nav-11">
+                                        <img src="images/zhdl.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p id="p22"><img src="images/user.png" alt=""><input type="text"
+                                                placeholder="用户名/邮箱/手机号码"></p>
+                                        <p><img src="images/mm.png" alt=""><input type="password" placeholder="密码"></p>
+                                        <p><img src="images/yzm.png" alt=""><input type="text" placeholder="验证码"></p>
+                                        <img src="images/yzm.jpg" alt="" id="yzm1">
+                                        <p id="p1"><input type="checkbox">自动登录<span id="ccc">注册账号</span></p>
+                                    </div>
+                                </div>
+                            </aside>
+
+                            <aside>
+                                <div class="nav111">
+                                    <div class="nav-11">
+                                        <img src="images/kjdl.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p id="p22"><img src="images/sjh.png" alt=""><input type="text"
+                                                placeholder="请输入手机号码">
+                                        </p>
+                                        <p><img src="images/yzm.png" alt=""><input type="password" placeholder="请输入验证码">
+                                        </p>
+                                        <p id="p7"><img src="images/yzm.png" alt=""><input type="text"
+                                                placeholder="请输入验证码" id="yzm"> <a href="" id="getyzm">获取验证码</a></p>
+                                        <img src="images/yzm.jpg" alt="" id="yzm2">
+                                        <p id="p1"><span id="ccc1">注册账号</span></p>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+
+                        <nav>
+                            <button>登录</button>
+                            <p id="p2">—————————— 其他账号登录 ——————————</p>
+                            <div class="qt">
+                                <img src="images/QQ.png" alt="">
+                                <img src="images/wb.png" alt="">
+                                <img src="images/wx.png" alt="">
+                            </div>
+                        </nav>
+
+
+                    </section>
+                </main>
+            </div>
+            <div id="login111">
+                <main class="all222">
+                    <header>
+                        <span id="span1">X</span>
+                    </header>
+                    <section>
+                        <ul>
+                            <li><img src="images/QQ.png" alt=""></li>
+                            <li><img src="images/wx.png" alt=""></li>
+                            <li><img src="images/wb.png" alt=""></li>
+                            <li><img src="images/kkw.png" alt=""></li>
+                        </ul>
+                    </section>
+                    <div class="buttom">
+                        <p><a href="" id="login11">快捷登录 |</a><a href="" id="register"> 注册</a></p>
+                        <p><input type="checkbox">同意
+                            <a href="#">《酷我音乐用户服务协议》 </a>
+                            <a href="#"> 《隐私政策》</a>
+                        </p>
+                        <p><a href="#">《儿童隐私政策》</a></p>
+                    </div>
+                </main>
+            </div>
+            <div id="login222">
+                <main class="all333">
+
+                    <header>
+                        <h5>新用户注册</h5>
+                        <span id="span2">X</span>
+                    </header>
+                    <section>
+                        <div class="top">
+                            <p>手机号:</p>
+                            <p><input type="text" placeholder="请输入手机号"></p>
+
+                            <p>设置密码:</p>
+                            <p><input type="text" placeholder="6 ~ 16位，需组合字母、数字或符号"></p>
+
+                            <p>验证码:</p>
+                            <p><input type="text" placeholder="请输入右侧验证码"></p>
+                            <img src="images/yzm.jpg" alt="">
+                        </div>
+                        <div class="buttom">
+                            <button>下一步</button>
+                            <p>已有账号 <a href="" id="login333">立即登录</a></p>
+                            <p><input type="checkbox">同意
+                                <a href="#">《酷我音乐用户服务协议》 </a>
+                                <a href="#"> 《隐私政策》</a>
+                            </p>
+                            <p><a href="#">《儿童隐私政策》</a></p>
+                        </div>
+
+                    </section>
+                </main>
+            </div>
+        </div>
+    </header>
+    <div class="nav">
+        <div class="nav-1">
+            <a href="index.html" class="n-1">推荐</a>
+            <a href="list.html">排行榜</a>
+            <a href="#">歌手</a>
+            <a href="#">歌单</a>
+            <a href="#">MV</a>
+        </div>
+    </div>
+    <main>
+        <div class="m-left">
+            <div class="l-top">
+                <ul>
+                    <li>官方</li>
+                    <li>特色</li>
+                    <li>场景</li>
+                </ul>
+            </div>
+            <div class="l-bottom">
+                <ul>
+                    <li>
+                        <img src="https://img3.kuwo.cn/star/upload/4/9/1659318175.png" alt="">
+                        <h5>酷我飙升榜</h5>
+                        <p><span>今日更新</span></p>
+                    </li>
+                    <li>
+                        <img src="https://img3.kuwo.cn/star/upload/4/9/1659318175.png" alt="">
+                        <h5>酷我飙升榜</h5>
+                        <p><span>今日更新</span></p>
+                    </li>
+                    <li>
+                        <img src="https://img3.kuwo.cn/star/upload/4/9/1659318175.png" alt="">
+                        <h5>酷我飙升榜</h5>
+                        <p><span>今日更新</span></p>
+                    </li>
+                    <li>
+                        <img src="https://img3.kuwo.cn/star/upload/0/8/1659318177.png" alt="">
+                        <h5>酷我飙升榜</h5>
+                        <p><span>今日更新</span></p>
+                    </li>
+                    <li>
+                        <img src="https://img3.kuwo.cn/star/upload/0/8/1659318177.png" alt="">
+                        <h5>酷我飙升榜</h5>
+                        <p><span>今日更新</span></p>
+                    </li>
+                    <li>
+                        <img src="https://img3.kuwo.cn/star/upload/0/8/1659318177.png" alt="">
+                        <h5>酷我飙升榜</h5>
+                        <p><span>今日更新</span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="m-right">
+            <div class="m-r-top">
+                <p id="p5"><span>酷我飙升榜 </span>
+                    更新时间:2019-11-07</p>
+            </div>
+            <div class="an">
+                <a id="bf"><img src="images/24gl-play.png" alt=""><span> 播放全部</span> </a>
+                <a><img src="images/tj.png" alt=""><span> 添加</span></a>
+                <a><img src="images/jsc.png" alt=""><span> 收藏</span>
+                    <a><img src="images/pl.png" alt=""><span> 评论</span></a>
+            </div>
+            <div class="r-1">
+                <div class="r-1-top">
+                    <ul>
+                        <li class="t1">序号</li>
+                        <li class="t2">歌曲</li>
+                        <li class="t3">歌手</li>
+                        <li class="t4">专辑</li>
+                        <li class="t5">时长</li>
+                    </ul>
+                </div>
+                <div class="r-1-bottom">
+                    <ul id="box">
+                        <li>
+                            <div class="b1">
+                                <img src="images/l1.png" alt="" class="img1">
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <img src="images/l2.png" alt="" class="img1">
+                                <img src="https://img3.kuwo.cn/star/albumcover/120/93/50/1282097401.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">Hug me(抱我) <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">蔡徐坤</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">Hug me</a>
+                            </div>
+                            <div class="b5">
+                                <a href="#">02:30</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <img src="images/l3.png" alt="" class="img1">
+                                <img src="https://img2.kuwo.cn/star/albumcover/120/16/91/409859677.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">大眠 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">王心凌</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">CYNDILOVES2SING 爱。心凌</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">03:59</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+
+
+                        <li>
+                            <div class="b1">
+                                <span>4</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>5</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>6</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>7</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>8</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>9</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>10</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>11</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>12</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>13</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>14</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>15</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>16</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>17</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>18</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>19</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>20</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>21</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>22</span>
+
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>23</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>24</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>25</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>26</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>27</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>28</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>29</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                        <li>
+                            <div class="b1">
+                                <span>30</span>
+                                <img src="https://img1.kuwo.cn/star/albumcover/120/85/57/351640245.jpg" alt=""
+                                    class="img2">
+                            </div>
+                            <div class="b2">
+                                <a href="#">美人鱼 <span>无损</span><span>MV</span></a>
+                            </div>
+                            <div class="b3">
+                                <a href="#">林俊杰</a>
+                            </div>
+                            <div class="b4">
+                                <a href="#">第二天堂</a>
+
+                            </div>
+                            <div class="b5">
+                                <a href="#">04:14</a>
+                                <div class="ggg"><img src="images/24gl-play.png" alt=""><img src="images/tj.png"
+                                        alt=""><img src="images/jsc.png" alt=""><img src="images/xz.png" alt="">
+
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fy">
+                    <ul>
+                        <li>＜</li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li id="sl">...</li>
+                        <li>10</li>
+                        <li>＞</li>
+                    </ul>
+                </div>
+                <div class="pl">
+                    <p>
+                    <h4>热门评论</h4><span>78条</span></p>
+                </div>
+                <div class="pl-1">
+                    <ul>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user3.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>╰把曾经 谱写成童話╮</h5>
+                                    </p>
+                                    <p>许嵩有十多首歌曲都在飙升榜前列</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>qq1527923036</h5>
+                                    </p>
+                                    <p>希望魔卡少女樱透明牌的歌的再一次登上去的点赞，让我看看有多少人是樱粉，记得举起你们的小手手呦</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user2.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>lonely＆燕</h5>
+                                    </p>
+                                    <p>脚踏实地谋发展 努力努力再努力x</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user3.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>╰把曾经 谱写成童話╮</h5>
+                                    </p>
+                                    <p>许嵩有十多首歌曲都在飙升榜前列</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>qq1527923036</h5>
+                                    </p>
+                                    <p>希望魔卡少女樱透明牌的歌的再一次登上去的点赞，让我看看有多少人是樱粉，记得举起你们的小手手呦</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="user">
+                                <div class="u-l">
+                                    <img src="images/user2.jpg" alt="">
+                                </div>
+                                <div class="u-r">
+                                    <p>
+                                    <h5>lonely＆燕</h5>
+                                    </p>
+                                    <p>脚踏实地谋发展 努力努力再努力x</p>
+                                    <p>2019-11-08 00:03:14</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fy">
+                    <ul>
+                        <li>＜</li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li id="sl">...</li>
+                        <li>147</li>
+                        <li>＞</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="to-top">
+        <ul>
+            <li>反馈</li>
+            <li><img src="images/wr.png" alt=""><img src="images/wr(1).png" alt=""></li>
+            <li><img src="images/anz.png" alt=""><img src="images/anz(2).png" alt=""></li>
+            <li><img src="images/iphone.png" alt=""><img src="images/iphone(1).png" alt=""></li>
+            <li id="ttt">^</li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="f-1">
+            <div class="f1-center">
+                <div class="f-top">
+                    <p>下载酷我音乐客户端</p>
+                    <p>协议与声明</p>
+                    <p>其他</p>
+                    <p>合作链接</p>
+                </div>
+                <div class="f-bottom">
+                    <ul>
+                        <li><a href="#"><img src="images/wr.png" alt="" id="pc"><img src="images/wr(2).png" alt=""
+                                    id="pc1"><br>PC版</a></li>
+                        <li><a href="#"><img src="images/anz.png" alt=""><img src="images/anz(1).png"
+                                    alt=""><br>Android</a></li>
+                        <li><a href="#"><img src="images/iphone.png" alt=""><img src="images/ipnone(2).png"
+                                    alt=""><br>iPhone版</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="#">用户服务协议</a>
+                            <a href="#">免责声明</a>
+                            <a href="#">用户权限</a>
+                        </li>
+                        <li><a href="#">儿童隐私政策</a>
+                            <a href="#">隐私政策</a>
+                            <a href="#">权利声明</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="#">联系我们</a>
+                            <a href="#">腾讯音乐</a>
+                            <a href="#">诚聘英才</a>
+                        </li>
+                        <li>
+                            <a href="#">广告服务</a>
+                            <a href="#">网上有害信息举报专区</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a href="#">QQ音乐</a>
+                        </li>
+                        <li>
+                            <a href="#">酷狗听书</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="f-2">
+            <p>北京酷我科技有限公司版权所有 丨 网络文化经营许可证：<a href="#">京网文[2021]2071-554号</a> | <a href="#"> 信息网络传播视听节目许可证0109362号</a>丨
+                增值电信业务经营许可证B2-20090418 丨<a href="#">京ICP证060261号</a>
+            </p>
+            <p><a href="#">广播电视节目制作经营许可证京字第02037号</a> 丨 <a href="#">营业性演出许可证京市演1574</a> 丨 <a
+                    href="">京公网安备11010502030216号</a> 丨 <a href="#">京ICP备09014827号</a></p>
+            <p>应用版本：10.1.0.0 丨 开发者：北京酷我科技有限公司 丨 举报电话：010-87939949丨 举报邮箱：support@kuwo.cn 丨<a href="#">未成年人监督举报入口</a> </p>
+        </div>
+    </footer>
+
+    <div class="fff" id="fff">
+        <div class="fff-1"></div>
+        <div class="fff-2">
+            <div class="ff-l">
+                <img src="images/详情.jpg" alt="">
+                <div class="ff-l-1">
+                    <span>后来没有你</span>
+                    <span> - 周深</span>
+                    <span id="start1"></span>
+                </span><input type="range" class="musicrange" value="0" id="musicrange"><span id="all"></span>
+                <audio src="music/jn.mp3" id="music"></audio>
+
+                </div>
+            </div>
+            <div class="ff-cen">
+                <span><img src="images/top.png" alt="" id="before"></span>
+                <span><img src="images/bf.png" alt="" id="bbb">
+                      <img src="images/zt.png" alt="" id="zt">
+                </span>
+                <span><img src="images/back.png" alt="" id="next"></span>
+            </div>
+            <div class="ff-r">
+                <img src="images/jsc.png" alt="">
+                <img src="images/xz.png" alt="">
+                <img src="images/pl.png" alt="">
+                <img src="images/24gl-repeat2.png" alt="">
+                <img src="images/24gl-playlistMusic2.png" alt="">
+                <span>高品 v</span>
+                <img src="images/24gl-volumeMiddle.png" alt="">
+                <input type="range" class="volume" value="0">
+            </div>
+            <div class="sd">
+                <img src="images/sd.png" alt="" id="sd">
+                <img src="images/js.png" alt="" id="js">
+            </div>
+        </div>
+        </div>
+    <script src="js/jquery-2.1.4/jquery.min.js"></script>
+    <script src="js/list.js"></script>
+    <script src="js/bf.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>

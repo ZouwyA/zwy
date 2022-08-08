@@ -1,0 +1,69 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.all222 header {
+    height: 50px;
+    width: 360px;
+    margin-bottom: 19px;
+}
+.all222 header span{
+    float: right;
+    margin: 10px;
+    padding: 4px 16px;
+    cursor: pointer;
+}   
+.all222 ul{
+    overflow: hidden;
+    margin: -31px 55px;
+    width: 290px;
+    padding-bottom: 40px;
+}
+.all222 li{
+    float: left;
+    width: 140px;
+    height: 150px;
+    line-height: 180px;
+    margin: 1px 2px;
+    text-align: center; 
+    margin-top: 40px;
+}
+.all222 img{    
+    border-radius: 50%;
+    border: 1px solid #888;
+    height: 45px;
+    width: 45px;
+    padding: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.all222 img:hover{
+    background: rgb(240, 236, 236);
+}
+
+.all222 .buttom input{
+    height: 12px;
+    width: 12px;
+    margin: 0 5px 0 0;
+    background: yellow;
+}
+.all222 a{
+    text-decoration: none;
+    color: #333;
+}
+.all222 .buttom p{
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+.all222 .buttom p:first-of-type{
+    font-size: 14px;
+    margin-bottom: 10px;
+    /* margin-top: -200px; */
+}
+#login11{
+    color: #487bb6;
+}
